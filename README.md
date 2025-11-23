@@ -1,6 +1,6 @@
 
 
-# 💊 MediWise: The Personalized ML-Powered Healthcare Assistant
+# 💊 MediWise : Personalized ML-Powered Healthcare Assistant
 
 MediWise is an innovative, **multilingual** health recommendation system that leverages **Machine Learning** to provide personalized, holistic health management advice.
 
