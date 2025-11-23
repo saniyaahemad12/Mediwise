@@ -1,39 +1,44 @@
-# 🩺 Medical Chatbot – AI-Powered Health Assistant
-A smart medical chatbot that provides instant healthcare advice based on user input. It suggests basic precautions, diet, yoga, and exercise recommendations for common ailments, offering first-level support before a professional consultation and you can find nearby doctors by entering your location.
 
-## Features
-🔍 Symptom-based query understanding
 
-🧠 AI-powered recommendations (precautions, diet, yoga, and exercise)
+# 💊 MediWise: The Personalized ML-Powered Healthcare Assistant
 
-📚 Medical knowledge base (custom or external API integration)
+MediWise is an innovative, **multilingual** health recommendation system that leverages **Machine Learning** to provide personalized, holistic health management advice.
 
-🖥️ User-friendly web interface
 
-🧪 Flask backend integration with ML/NLP model
 
-## 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript (optionally Bootstrap or React)
+## ✨ Features
 
-Backend: Python (Flask)
+  * **Holistic Recommendations:** Provides integrated suggestions across three key areas:
+      * **Personalized Medication:** Drug recommendations based on symptom input and diagnosis.
+      * **Customized Diet Plans:** Nutritional guidance tailored to user conditions.
+      * **Specific Exercise Regimens:** Physical activity recommendations for overall well-being.
+        
+  * **Multilingual Accessibility:** Supports over **18 Indian languages**, making the system accessible to a diverse user base across the country.
+    
+  * **Integrated Hospital Finder:** Features an interactive map tool that allows users to **easily locate nearby hospitals and clinics**.
 
-AI/NLP: scikit-learn / spaCy / OpenAI API / custom-trained model
 
-## 🧑‍⚕️How it work's 
 
-User inputs a medical query (e.g., "I have a sore throat").
+## 💻 Technology Stack
 
-The chatbot processes the input using NLP techniques.
+  * **Machine Learning (ML):**
+      * **Core:** Python
+      * **Libraries:** Scikit-learn, Pandas, NumPy
+      * **Deep Learning:** TensorFlow / PyTorch 
+        
+  * **Backend & API:**
+      * **Framework:** Flask
+      * **Language:** Python
+        
+  * **Frontend & User Interface (UI):**
+      * **Web Basics:** HTML5, CSS3, JavaScript
+      * **Framework :** Bootstrap 
+        
+  * **Database:**
+      * **System:** MySQL
+        
+  * **Geospatial & Services:**
+      * **Map Integration:** Leaflet.js 
+        
 
-Based on symptoms, it classifies or extracts relevant information.
-
-It responds with advice including:
-
-Home precautions
-
-Suggested diet
-
-Recommended exercises or yoga
-
-Alerts (if it suspects a serious condition)
 
