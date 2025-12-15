@@ -22,6 +22,9 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+document.getElementById("theme-toggle").addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
@@ -286,4 +289,5 @@ document.getElementById('symptom-form').addEventListener('submit', function (e) 
   .catch(() => {
     alert("Error getting suggestions. Please try again.");
   });
+
 });
