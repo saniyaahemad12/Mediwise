@@ -400,6 +400,34 @@ img{
 .services__description{
   padding: 0 1.5rem;
 }
+body.dark .services {
+  background-color: #0f172a;
+}
+
+body.dark .service-card {
+  background: #1e293b;
+  color: #e5e7eb;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+body.dark .service-card h3 {
+  color: #f8fafc;
+}
+
+body.dark .service-card p {
+  color: #cbd5e1;
+}
+.service-card {
+  text-decoration: none;
+}
+
+body.dark .service-card {
+  text-decoration: none;
+}
+body.dark lottie-player {
+  filter: drop-shadow(0 0 6px #38bdf8);
+}
+
 
 /*========== MENU ==========*/
 .menu__container{
@@ -746,4 +774,5 @@ iframe.goog-te-banner-frame {
             margin-top: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
         }
